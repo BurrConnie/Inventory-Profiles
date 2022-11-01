@@ -166,6 +166,8 @@
     "inventoryprofiles.config.name.auto_refill_match_nbt":                          "Розрізняти за NBT",
     "inventoryprofiles.config.name.auto_refill_match_nbt_type":                     "Вид розрізнення NBT",
     "inventoryprofiles.config.name.auto_refill_ignore_nbt_for_buckets":             "Ігнорувати NBT для відер",
+    "inventoryprofiles.config.name.auto_refill_match_any_food":                     "Дозволити поповнення будь-якою їжею",
+    "inventoryprofiles.config.name.auto_refill_match_harmful_food":                 "Дозволити поповнення шкідливою їжею",
     "inventoryprofiles.config.name.autorefill_blacklist":                           "Чорний список предметів",
     "inventoryprofiles.config.name.tool_damage_threshold":                          "Мінімальна міцність",
     "inventoryprofiles.config.name.threshold_unit":                                 "Одиниця виміру міцности",
@@ -206,6 +208,8 @@
     "inventoryprofiles.config.description.auto_refill_match_nbt":                   "Авто-поповнення враховуватиме NBT під час поповнення блоків\nДля інструментів та броні NBT ігнорується.",
     "inventoryprofiles.config.description.auto_refill_match_nbt_type":              "Це визначає спосіб порівняння NBT.\n'Точно' - NBT має повністю відповідати.\n'Однакові теґи' - порівнюватимуться лише однакові теґи.",
     "inventoryprofiles.config.description.auto_refill_ignore_nbt_for_buckets":      "Якщо НІ, відра з рибою або аксолотлями поповнюватимуться, лише якщо вони містять той самий тип риби/аксолотля.",
+    "inventoryprofiles.config.description.auto_refill_match_any_food":              "Якщо ТАК, при вичерпанні стаку їжі, слот, в якому вона знаходилась, може бути поповнено будь-якою іншою їжею.\n\nПРИМІТКА:\nЦе означає, що їжа сортуватиметься за насиченням, тобто Зачароване золоте яблуко поповнюватиме цей слот понад усіх інших видів їжі.",
+    "inventoryprofiles.config.description.auto_refill_match_harmful_food":          "Якщо в цьому та параметрі вище встановлено значення ТАК, при вичерпанні стаку їжі, слот, в якому вона знаходилась, може бути поповнено шкідливою їжею, як наприклад, Скелезуб.",
 
     "inventoryprofiles.config.description.autorefill_blacklist":                    "Список предметів, розділених комами, які ігноруватиме авто-поповнення\nНаприклад, \"minecraft:gold_pickaxe,minecraft:stone\"\nУВАГА:\nЩоб уникнути зниження швидкодії, НЕ додавайте забагато предметів у список!",
     "inventoryprofiles.config.description.tool_damage_threshold":                   "Контролює рівень міцности, після якого активується Авто-поповнення.",
